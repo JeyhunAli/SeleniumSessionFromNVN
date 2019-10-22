@@ -6,7 +6,7 @@
  * or i can create the string usernmae or password then i can congat the string to the url for example 
  *    driver.get("http://"+username+":"+password+"@the-internet.herokuapp.com/basic_auth");
  */
-
+//
 
 package coreSelenium;
 import org.openqa.selenium.WebDriver;

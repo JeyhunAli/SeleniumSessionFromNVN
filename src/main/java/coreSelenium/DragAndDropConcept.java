@@ -30,7 +30,7 @@ public class DragAndDropConcept {
 		
 		WebElement sourceElement = driver.findElement(By.id("draggable"));
 		WebElement targetElement = driver.findElement(By.id("droppable"));
-//1st way of draganddrop
+//      1st way of draganddrop here its acting like in real life click hold then move then release 
 //		action.clickAndHold(sourceElement).moveToElement(targetElement).release().build().perform();
 		
 		//2nd way 

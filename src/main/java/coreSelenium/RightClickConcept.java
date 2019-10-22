@@ -3,7 +3,7 @@
  * action class for right click as well 
  * right click is not for the browser option ist for the webelement 
  * for the right click in selenium in action class there contextClick method is available 
- * this ethod is also exaample of method overloading 
+ * this method is also exaample of method overloading 
  */
 
 
@@ -33,7 +33,9 @@ public class RightClickConcept {
 		action.contextClick(rightClickMeElement).build().perform();
 		
 		String text = driver.findElement(By.xpath("//ul/li[contains(@class,'context-menu-icon-copy')]/span")).getText();
+	    String text1 = driver.findElement(By.xpath("//ul/li[contains(@class,'context-menu-icon-delete')]/span")).getText();
 		System.out.println(text);
+		System.out.println(text1);
 		
 		
 		
