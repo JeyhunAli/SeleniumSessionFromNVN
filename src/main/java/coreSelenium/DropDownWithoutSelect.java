@@ -37,6 +37,13 @@ public class DropDownWithoutSelect {
  * in select class there another method is   isMultiple this method is returning boolean value true or false 
  * its used to whenever i have more selection just to verification 
  * 
+ * 
+ * there three method under select class select by visible text 
+ * select by index , select by value 
+ * select by index is not recommended if the position of the index changed then need to maintain it again 
+ * 
+ * there isMultiple method inside select class return type is boolean true or false direct sop and get to know all the values selected or no 
+ * 
  */
 	}
 
