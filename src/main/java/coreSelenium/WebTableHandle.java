@@ -1,7 +1,15 @@
 
 
 /**
+ * while working on web page where there is some web table for that need to create xpath with tr and td 
  * in dom document object model  html tag tr means number of rows td means number of coulmns
+ * in selenium we dont have any direct method to handle webtable we have to use xpath concept
+ * td most of the time is constant tr is dynamic 
+ * 
+ * 
+ * 
+ * in web table handling based on rows and columns breaking xpath into two part and creating before and after xpath 
+ * and getting the value from the xpath 
  * 
  */
 
@@ -40,6 +48,7 @@ public class WebTableHandle {
 			//actualxpath is ref name ----> beforexpath +rowcount+afterxpath al; together its gonna give me all the table xpath
 			String value = driver.findElement(By.xpath(actualXpath)).getText();//here getting actual xpath
 			System.out.println(value);
+			
 		}
 
 	}
